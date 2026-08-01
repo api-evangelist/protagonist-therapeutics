@@ -1,8 +1,28 @@
 aid: protagonist-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/protagonist-therapeutics.png
 name: Protagonist Therapeutics
-description: Protagonist Therapeutics is a company surfaced as a portfolio company of canaan-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Protagonist Therapeutics, Inc. is a clinical-stage biopharmaceutical company
+  headquartered in Newark, California and founded in 2006. It discovers and
+  develops peptide-based new chemical entities using a proprietary peptide
+  discovery and engineering platform, targeting rare and prevalent diseases with
+  significant unmet medical need. Lead programs include rusfertide, a hepcidin
+  mimetic in Phase 3 for polycythemia vera, and icotrokinra (PN-235), an oral
+  IL-23 receptor antagonist partnered with Johnson & Johnson. The company is
+  publicly traded (Nasdaq: PTGX) following its 2016 IPO. It was surfaced as a
+  portfolio company of Canaan Partners and added to the API Evangelist network;
+  enrichment found no public developer API, OpenAPI, SDK, or agent surface.
 url: https://raw.githubusercontent.com/api-evangelist/protagonist-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +32,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biopharmaceutical
+- Biotechnology
+- Peptide Therapeutics
+- Pharmaceuticals
+- Drug Discovery
+- Healthcare
+- Life Sciences
 apis: []
+common:
+- type: DomainSecurity
+  url: security/protagonist-therapeutics-domain-security.yml
+- type: Website
+  url: https://www.protagonist-inc.com/
+- type: Blog
+  url: https://www.protagonist-inc.com/news
+- type: PrivacyPolicy
+  url: https://www.protagonist-inc.com/privacy-policy
+- type: TermsOfService
+  url: https://www.protagonist-inc.com/terms-of-use
+- type: Contact
+  url: https://www.protagonist-inc.com/contact
+- type: LinkedIn
+  url: https://www.linkedin.com/company/protagonist-therapeutics
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
