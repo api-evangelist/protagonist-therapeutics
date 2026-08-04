@@ -2,6 +2,13 @@
   "repo": "protagonist-therapeutics",
   "feeds": [
     {
+      "source": "http://www.protagonist-inc.com/feed/rss2",
+      "feed_url": "http://www.protagonist-inc.com/feed/rss2",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://www.protagonist-inc.com/",
       "feed_url": "http://www.protagonist-inc.com/feed/rss2",
       "title": "",
@@ -9,6 +16,6 @@
       "method": "discovered"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-07-25T15:00:33Z"
+  "post_count": 47,
+  "fetched": "2026-08-01T15:49:00Z"
 }
